@@ -1,0 +1,62 @@
+section{
+    margin-bottom: 100px;
+}
+
+
+
+#Service{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.list {
+    list-style: none; /* Hapus bullet default */
+    padding-left: 0;  /* Hapus padding default */
+}
+
+.list li {
+    background-image: url('./assets/2491977-middle.png');
+    background-size: 20px 20px; 
+    background-repeat: no-repeat; 
+    background-position: 0 5px; 
+    padding-left: 30px; 
+}
+
+.hi{
+    animation-name: fadeUp;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+
+.BISSNET_img{
+    animation-name: fadeUp;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+
+@keyframes slideInTop {
+    from {
+        transform: translateY(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes fadeUp {
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
